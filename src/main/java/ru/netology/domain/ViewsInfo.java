@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class ViewInfo {
+public class ViewsInfo {
     private int count;
 
     public int getCount() {

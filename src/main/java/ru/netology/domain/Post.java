@@ -14,9 +14,9 @@ public class Post {
     private int friendsOnly;
     private CommentsInfo commentsInfo;
     private String copyright;
-    private LikeInfo likeInfo;
+    private LikesInfo likeInfo;
     private RepostInfo repostInfo;
-    private ViewInfo viewInfo;
+    private ViewsInfo viewInfo;
     private String postType;
     private PostSource postSource;
     private Array attachments;
@@ -116,11 +116,11 @@ public class Post {
         this.copyright = copyright;
     }
 
-    public LikeInfo getLikeInfo() {
+    public LikesInfo getLikeInfo() {
         return likeInfo;
     }
 
-    public void setLikeInfo(LikeInfo likeInfo) {
+    public void setLikeInfo(LikesInfo likeInfo) {
         this.likeInfo = likeInfo;
     }
 
@@ -132,11 +132,11 @@ public class Post {
         this.repostInfo = repostInfo;
     }
 
-    public ViewInfo getViewInfo() {
+    public ViewsInfo getViewInfo() {
         return viewInfo;
     }
 
-    public void setViewInfo(ViewInfo viewInfo) {
+    public void setViewInfo(ViewsInfo viewInfo) {
         this.viewInfo = viewInfo;
     }
 
